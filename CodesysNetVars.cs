@@ -16,7 +16,7 @@ namespace EasyNetVars
 	/// <summary>
 	/// Receive Broadcast Messages from CoDeSys Devices
 	/// </summary>
-	public class EasyNetVars
+	public class NetVars
 	{
 		private int cobID=1;
 		private int port=1202;
@@ -28,7 +28,7 @@ namespace EasyNetVars
         private CTelegram cTelegramReceive;
         private ArrayList returnList = new ArrayList();
 	
-		public EasyNetVars()
+		public NetVars()
 		{
 		}
 		
